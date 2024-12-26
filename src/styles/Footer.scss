@@ -1,0 +1,24 @@
+.footer {
+  background-color: #333; // 푸터의 배경색
+  color: #fff; // 텍스트 색상
+  text-align: center; // 텍스트 가운데 정렬
+  padding: 20px 0; // 위아래 패딩
+  width: 100%; // 전체 너비
+  bottom: 0; // 화면 하단에 위치
+
+  .footer-content {
+    max-width: 1200px; // 최대 너비
+    margin: 0 auto; // 가운데 정렬
+    padding: 0 20px; // 좌우 패딩
+
+    a {
+      color: #fff; // 링크 색상
+      margin: 0 5px; // 좌우 마진
+      text-decoration: none; // 밑줄 제거
+
+      &:hover {
+        text-decoration: underline; // 호버 시 밑줄 추가
+      }
+    }
+  }
+}
